@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: authorizer
+    env: docker
+    autoDeploy: false
+    healthCheckPath: /
