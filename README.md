@@ -1,28 +1,19 @@
-# Authorizer Server on Railway App
+# Authorizer on Render
 
-Deploy production ready [authorizer.dev](https://authorizer.dev) instance using [railway.app](https://railway.app) with [PostgreSQL](https://github.com/authorizerdev/authorizer-railway) / [MySQL](https://github.com/authorizerdev/authorizer-railway/tree/with-mysql-redis) and Redis for free and build with it in 30seconds
+Click to deploy a [Authorizer](https://authorizer.dev) instance on [Render](https://render.com/).
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/nwXp1C?referralCode=FEF4uT)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/authorizerdev/authorizer-render)
 
-## ✨ Features
+After clicking the above button, follow the steps mentioned below:
 
-- [Authorizer](https://authorizer.dev)
-- [PostgreSQL](https://github.com/authorizerdev/authorizer-railway) / [MySQL](https://github.com/authorizerdev/authorizer-railway/tree/with-mysql-redis)
-- REDIS
+### Step 1: Enter app details
 
-## 💁‍♀️ How to use
+Enter the name for your instance.
 
-- Click the Railway button 👆
-- Configure the required environment variables. Checkout docs on [environment variables](https://docs.authorizer.dev/core/env/) to get more information.
-- Deploy
+### Step 2: Configure Envs
 
-## 📝 Notes
+Open authorizer URL in your browser and configure rest of your [envs](https://docs.authorizer.dev/core/env).
 
-- Source repo: https://github.com/authorizerdev/authorizer
-- Docs: https://docs.authorizer.dev/deployment/railway/
+> Note: `DATABASE_URL` and `DATABASE_TYPE` are only configurable via render envs
 
-### Updating Authorizer on existing Railway instance
-
-- You can update the [docker image](https://github.com/authorizerdev/authorizer-railway/blob/main/Dockerfile#L1) to the desired version in your repository which gets created with your deployment.
-
-- You can find all the versions on [github](https://github.com/authorizerdev/authorizer/releases) or [dockerhub](https://hub.docker.com/r/lakhansamani/authorizer)
+That's all 🎉 you can get started with [Authorizer](https://docs.authorizer.dev/getting-started) now! You have your authentication and authorization layer ready.
